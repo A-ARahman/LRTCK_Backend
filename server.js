@@ -11,9 +11,9 @@ app.use(cors()); // Use this before your routes are set up
 // Create a connection to the database
 const db = mysql.createConnection({
   host: 'localhost', // or your database host
-  user: 'root', // or your database username
-  password: '', // or your database password
-  database: 'loretrack' // your database name
+  user: 'id21753406_loretrack', // or your database username
+  password: 'Loretrack69.', // or your database password
+  database: 'lid21753406_loretrack' // your database name
 });
 
 // Connect to the database
@@ -24,7 +24,7 @@ db.connect((err) => {
 
 // Define routes here...
 
-const PORT = 3000;
+const PORT = 3306;
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
