@@ -10,10 +10,10 @@ app.use(cors()); // Use this before your routes are set up
 
 // Create a connection to the database
 const db = mysql.createConnection({
-  host: 'localhost', // or your database host
-  user: 'id21753406_loretrack', // or your database username
-  password: 'Loretrack69.', // or your database password
-  database: 'lid21753406_loretrack' // your database name
+  host: 'sql12.freesqldatabase.com', // or your database host
+  user: 'sql12674950', // or your database username
+  password: 'x2M5SaY564', // or your database password
+  database: 'sql12674950' // your database name
 });
 
 // Connect to the database
